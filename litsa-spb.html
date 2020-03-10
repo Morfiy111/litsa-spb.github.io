@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Лица | Салон красоты</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.theme.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
@@ -19,8 +20,111 @@
     <![endif]-->
 </head>
 <body>
-<h1>Hello, world!</h1>
-
+<header class="header-line-block">
+    <div class="container">
+        <div class="header-main-page">
+            <div class="logo-block-header">
+                <a href="/"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="header-address-block">
+                <div class="header-address">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span>САНКТ-ПЕТЕРБУРГ,<br>СПАССКИЙ ПЕРЕУЛОК ДОМ 3</span>
+                </div>
+                <div class="header-time">
+                    <div class="header-time-img">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="header-time-text">
+                        С 10:00 ДО 21:00
+                    </div>
+                </div>
+            </div>
+            <div class="header-feedback">
+                <div class="header-feedback-phone">
+                    <a href="tel:88125702831"><i class="fa fa-phone" aria-hidden="true"></i> 8 (812) 570-28-31</a>
+                </div>
+                <div class="header-feedback-mail">
+                    <a href="mailto:salon.litsa@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> salon.litsa@gmail.com</a>
+                </div>
+            </div>
+            <div class="header-order">
+                <a href="#" class="fancy-btn">ОНЛАЙН ЗАПИСЬ</a>
+                <button type="button" data-toggle="modal" data-target="#modal-call">ПЕРЕЗВОНИТЬ?</button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="modal fade" id="modal-call" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                <span aria-hidden="true">×</span>
+            </button>
+            <div class="modal-body">
+                <div class="owl-feedback-form js-send-form">
+                    <h3>ОТПРАВИТЬ ЗАЯВКУ</h3>
+                    <input type="text" name="name" placeholder="Ваше имя">
+                    <input type="text" name="phone" placeholder="Телефон">
+                    <select class="form-control" name="service">
+                        <option>Выберите услугу</option>
+                        <option>Мужские стрижки</option>
+                        <option>Женские стрижки</option>
+                        <option>Макияж</option>
+                        <option>Маникюр</option>
+                        <option>Эстетическая Косметология</option>
+                        <option>Депиляция</option>
+                        <option>Массаж</option>
+                        <option>Солярий</option>
+                        <option>Коррекция бровей машинкой</option>
+                        <option>Педикюр</option>
+                        <option>Пирсинг</option>
+                        <option>Детские стрижки</option>
+                        <option>Мужская модельная стрижка</option>
+                        <option>Инъекционная косметология</option>
+                        <option>Наращивание ресниц</option>
+                        <option>Аппаратная косметология</option>
+                        <option>Депиляция усов, верхней губы (шугаринг-воск)</option>
+                        <option>Депиляция подмышек (шугаринг-воск)</option>
+                        <option>Перманентный макияж</option>
+                        <option>Абонемент в солярий</option>
+                        <option>Прокол ушей Система System 75</option>
+                        <option>Короткие женские стрижки</option>
+                        <option>Пикси женская стрижка</option>
+                        <option>Средние женские стрижки</option>
+                        <option>Каре женская стрижка</option>
+                        <option>Лесенка женская стрижка</option>
+                        <option>Рисунок, узор, линии на голове (Hair Tatoo)</option>
+                        <option>Мужская депиляция волос на лице (Воск Italwax)</option>
+                        <option>Пилинги</option>
+                        <option>Поверхностные пилинги</option>
+                        <option>Салициловый пилинг</option>
+                        <option>Миндальный пилинг</option>
+                        <option>Гликолевый пилинг</option>
+                        <option>Карбоновый пилинг</option>
+                        <option>Каскад женская стрижка</option>
+                        <option>Ультразвуковой пилинг (чистка лица)</option>
+                        <option>Пилинг Alpfa Complex от Holy Land</option>
+                        <option>Желтый пилинг</option>
+                        <option>Пилинг ТСА</option>
+                        <option>Пилинг PRX-T33</option>
+                        <option>Татуаж Бровей (перманентный макияж)</option>
+                        <option>Татуаж Губ (Перманентный макияж)</option>
+                        <option>Татуаж межресничной стрелки (перманентный макияж)</option>
+                        <option>Лучший салон красоты в Центре Санкт-Петербурга</option>
+                        <option>Удаление татуажа - перманентного макияжа</option>
+                        <option>Протезирование ногтей</option>
+                        <option>Установка корректирующей скобы (3TO)</option>
+                        <option>Длинные женские стрижки</option>
+                        <option>Выпрямление волос</option>
+                        <option>Химическое выпрямление волос</option>
+                    </select>
+                    <button class="fancy-btn">ЗАПИСАТЬСЯ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
