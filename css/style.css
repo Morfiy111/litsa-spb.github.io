@@ -120,6 +120,19 @@ button.close {
 .header-address-block {
     width: 234px;
 }
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    border-bottom: none;
+    color: #333;
+    font-weight: bold;
+}
+.dropdown-menu li:last-child a {
+    border-bottom: none;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
