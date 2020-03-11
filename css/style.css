@@ -175,6 +175,33 @@ button.close {
     border: 2px solid #333;
     transform: scale(1.5);
 }
+.title-page h1:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #333;
+    top: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.title-page h1:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100px;
+    background: #333;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.title-page {
+    padding:10px;
+    text-align:center;
+    position:relative;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
