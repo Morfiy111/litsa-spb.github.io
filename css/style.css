@@ -255,6 +255,39 @@ button.close {
     text-align: center;
     margin-bottom: 40px;
 }
+.background-image-block {
+    background-image: url("../images/about2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+.overlay-block {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 0;
+    left: 0;
+}
+.background-image-block p, .background-image-block h3 {
+    position: relative;
+}
+.background-image-block .button-center {
+    margin: 20px 0;
+}
+.underline--magical {
+    background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+    background-size: 100% 88%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="58fc298d-a19f-4631-b3c2-003a7759419d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/good6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/good6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/litsa-spb.html" beforeDir="false" afterPath="$PROJECT_DIR$/litsa-spb.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,20 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+            <state relative-caret-position="126">
+              <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/litsa-spb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="185" column="29" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="29" />
+            <state relative-caret-position="276">
+              <caret line="197" column="65" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -60,14 +59,14 @@
       <list>
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/litsa-spb.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/litsa-spb.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="180" />
-    <option name="y" value="32" />
+    <option name="x" value="158" />
+    <option name="y" value="136" />
     <option name="width" value="1371" />
     <option name="height" value="764" />
   </component>
@@ -129,18 +128,18 @@
       <option name="presentableId" value="Default" />
       <updated>1583828135810</updated>
       <workItem from="1583828137335" duration="12473000" />
-      <workItem from="1583906001929" duration="11697000" />
+      <workItem from="1583906001929" duration="14050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24170000" />
+    <option name="totallyTimeSpent" value="26523000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="180" y="32" width="1371" height="764" extended-state="0" />
+    <frame x="158" y="136" width="1371" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25360668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25360668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -153,7 +152,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40981013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40981013" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -179,17 +178,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litsa-spb.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="185" column="29" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="29" />
+        <state relative-caret-position="126">
+          <caret line="281" column="65" selection-start-line="281" selection-start-column="65" selection-end-line="281" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/litsa-spb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+        <state relative-caret-position="276">
+          <caret line="197" column="65" selection-start-line="197" selection-start-column="65" selection-end-line="197" selection-end-column="65" />
         </state>
       </provider>
     </entry>
