@@ -109,7 +109,7 @@ a:focus, a:hover {
     width: 100%;
     margin-bottom: 15px;
     padding: 5px 10px;
-    border: 1px solid rgba(122, 122, 122, 0.25);
+    border: 1px solid #333;
     border-radius: 2px;
     font-size: 16px;
 }
@@ -343,6 +343,37 @@ button.close {
     grid-column-end: 9;
     grid-row-start: 6;
     grid-row-end: 9;
+}
+.main-map-block {
+    filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    margin-bottom: 40px;
+}
+.order-map-relative {
+    position: relative;
+}
+.map-order-send {
+    position: absolute;
+    top: -380px;
+    right: 0;
+    background-color: #fff;
+    padding: 15px;
+}
+.map-order-forms {
+    border: 2px solid #333;
+    padding: 15px;
+}
+.map-order-forms input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-size: 16px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
