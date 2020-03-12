@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fc298d-a19f-4631-b3c2-003a7759419d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/litsa-spb.html" beforeDir="false" afterPath="$PROJECT_DIR$/litsa-spb.html" afterDir="false" />
     </list>
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="410" column="14" lean-forward="true" selection-start-line="410" selection-start-column="14" selection-end-line="410" selection-end-column="14" />
+            <state relative-caret-position="246">
+              <caret line="597" column="19" selection-start-line="597" selection-start-column="19" selection-end-line="597" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litsa-spb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="320" column="48" selection-start-line="320" selection-start-column="48" selection-end-line="320" selection-end-column="48" />
+            <state relative-caret-position="201">
+              <caret line="380" column="33" lean-forward="true" selection-start-line="380" selection-start-column="33" selection-end-line="380" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="78" />
+    <option name="x" value="153" />
+    <option name="y" value="206" />
     <option name="width" value="1371" />
     <option name="height" value="764" />
   </component>
@@ -130,15 +129,15 @@
       <updated>1583828135810</updated>
       <workItem from="1583828137335" duration="12473000" />
       <workItem from="1583906001929" duration="17321000" />
-      <workItem from="1583992146439" duration="6249000" />
+      <workItem from="1583992146439" duration="7333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36043000" />
+    <option name="totallyTimeSpent" value="37127000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="78" width="1371" height="764" extended-state="0" />
+    <frame x="153" y="206" width="1371" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574032" />
@@ -182,15 +181,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/litsa-spb.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="320" column="48" selection-start-line="320" selection-start-column="48" selection-end-line="320" selection-end-column="48" />
+        <state relative-caret-position="201">
+          <caret line="380" column="33" lean-forward="true" selection-start-line="380" selection-start-column="33" selection-end-line="380" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="410" column="14" lean-forward="true" selection-start-line="410" selection-start-column="14" selection-end-line="410" selection-end-column="14" />
+        <state relative-caret-position="246">
+          <caret line="597" column="19" selection-start-line="597" selection-start-column="19" selection-end-line="597" selection-end-column="19" />
         </state>
       </provider>
     </entry>
