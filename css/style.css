@@ -398,6 +398,53 @@ button.close {
 .shares-image-block img {
     width: 100%;
 }
+.footer-page {
+    background-color: #333;
+    padding: 40px 0;
+    margin-top: 50px;
+    color: #fff;
+}
+.footer-flex-block {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    width: 242px;
+}
+.footer-logo img {
+    width: 100%;
+}
+.footer-flex-block a {
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-time {
+    width: 50px;
+    margin-right: 10px;
+}
+.footer-address .social-block {
+    display: flex;
+}
+.footer-address .social-block a {
+    margin-right: 8px;
+    font-size: 22px;
+}
+.footer-address-item i {
+    margin-right: 5px;
+}
+.footer-copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer-copyright a {
+    color: #fff;
+}
+.footer-pay-time {
+    display: flex;
+    align-items: flex-start;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
