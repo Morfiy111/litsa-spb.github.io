@@ -448,6 +448,9 @@ button.close {
 .footer-copyright-big {
     font-size: 14px;
 }
+.owl-carousel, .goods-main-img {
+    filter: grayscale(1);
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
