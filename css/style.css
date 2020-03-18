@@ -420,6 +420,9 @@ button.close {
     display: block;
     margin-bottom: 5px;
 }
+.footer-flex-block a:hover {
+    text-decoration: underline;
+}
 .footer-time {
     width: 50px;
     margin-right: 10px;
@@ -445,12 +448,28 @@ button.close {
 .footer-pay-time {
     display: flex;
     align-items: flex-start;
+    margin-bottom: 20px;
 }
 .footer-copyright-big {
     font-size: 14px;
 }
 .owl-carousel, .goods-main-img {
     filter: grayscale(1);
+}
+.header-address a {
+    border-bottom: none;
+    text-decoration: underline;
+}
+.header-address a:hover {
+    text-decoration: none;
+}
+.btn-footer-feedback .fancy-btn, .btn-footer-feedback .fancy-btn:after {
+    border-color: #fff;
+    text-align: center;
+}
+.btn-footer-feedback .fancy-btn:hover {
+    color: #fff;
+    text-decoration: none;
 }
 @media (min-width: 768px) {
     .navbar-nav {

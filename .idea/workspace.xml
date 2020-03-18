@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58fc298d-a19f-4631-b3c2-003a7759419d" name="Default Changelist" comment="" />
+    <list default="true" id="58fc298d-a19f-4631-b3c2-003a7759419d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/litsa-spb.html" beforeDir="false" afterPath="$PROJECT_DIR$/litsa-spb.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="296" column="25" selection-start-line="296" selection-start-column="25" selection-end-line="296" selection-end-column="25" />
+            <state relative-caret-position="276">
+              <caret line="471" column="25" selection-start-line="471" selection-start-column="25" selection-end-line="471" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -31,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/litsa-spb.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5700">
-              <caret line="380" column="33" selection-start-line="380" selection-start-column="33" selection-end-line="380" selection-end-column="53" />
+            <state relative-caret-position="262">
+              <caret line="353" column="22" selection-start-line="353" selection-start-column="22" selection-end-line="353" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -48,6 +52,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>САНКТ-ПЕТЕРБУРГ, СПАССКИЙ ПЕРЕУЛОК ДОМ 3</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,8 +71,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="206" />
+    <option name="x" value="217" />
+    <option name="y" value="502" />
     <option name="width" value="1371" />
     <option name="height" value="764" />
   </component>
@@ -73,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,11 +104,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rolli-pali" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -128,17 +138,21 @@
       <workItem from="1583906001929" duration="17321000" />
       <workItem from="1583992146439" duration="7961000" />
       <workItem from="1584101980131" duration="826000" />
-      <workItem from="1584105243079" duration="622000" />
+      <workItem from="1584105243079" duration="636000" />
+      <workItem from="1584356837386" duration="19000" />
+      <workItem from="1584447783287" duration="678000" />
+      <workItem from="1584529925083" duration="1109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39203000" />
+    <option name="totallyTimeSpent" value="41023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="206" width="1371" height="764" extended-state="0" />
+    <frame x="217" y="502" width="1371" height="764" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27942294" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -170,13 +184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/litsa-spb.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5700">
-          <caret line="380" column="33" selection-start-line="380" selection-start-column="33" selection-end-line="380" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -184,10 +191,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/litsa-spb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="353" column="22" selection-start-line="353" selection-start-column="22" selection-end-line="353" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="296" column="25" selection-start-line="296" selection-start-column="25" selection-end-line="296" selection-end-column="25" />
+        <state relative-caret-position="276">
+          <caret line="471" column="25" selection-start-line="471" selection-start-column="25" selection-end-line="471" selection-end-column="25" />
         </state>
       </provider>
     </entry>
