@@ -636,6 +636,13 @@ button.close {
 .page-shares-item .owl-shares-desk {
     height: auto;
 }
+.blog-author span {
+    font-weight: bold;
+}
+.blog-author {
+    margin-bottom: 20px;
+    text-align: right;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
