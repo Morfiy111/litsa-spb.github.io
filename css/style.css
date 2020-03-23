@@ -498,6 +498,127 @@ button.close {
 .breadcrumb a:hover {
     border-bottom: none;
 }
+#button-up {
+    display: none;
+    right: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 67px;
+    outline: none;
+    width: 57px;
+    color: #333333;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0px 0 0 28px;
+    background: url("../images/scrolltop.png") no-repeat 7px 11px transparent;
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    z-index: 9;
+    background-size: 50px;
+}
+#button-up span {
+    display: block;
+    width: 56px;
+    height: 66px;
+}
+.flex-good-block-page {
+    display: flex;
+    justify-content: space-between;
+}
+.good-main-content-img img {
+    width: 100%;
+}
+.good-main-content-img {
+    width: 200px;
+    float: right;
+}
+.aside-good-links {
+    width: 22%;
+}
+.good-main-content {
+    width: 76%;
+}
+.roots-aside-block {
+    padding-left: 0;
+    list-style: none;
+}
+.roots-aside-block li {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 13px;
+    border-bottom: 1px solid #fff;
+}
+.roots-aside-block li a {
+    color: #fff;
+    display: block;
+}
+.aside-title-block h2{
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+.good-main-content table {
+    width: 100%;
+}
+.good-main-content table td, .good-main-content table th {
+    border: 1px solid #333;
+    padding: 7px;
+}
+.good-main-content table td a:hover {
+    border-bottom: none;
+}
+.portfolio-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    width: 32%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.portfolio-item img {
+    width: 100%;
+}
+.portfolio-item i {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: none;
+    transition: all .3s linear;
+}
+.black-overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.portfolio-item:hover i {
+    transform: scale(1.8);
+    transition: all .3s linear;
+    display: block;
+    z-index: 2;
+}
+.portfolio-item:hover .black-overlay {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.order-send-content {
+    position: initial;
+}
+.order-send-content {
+    text-align: center;
+}
+.roots-aside-block li a:hover {
+    text-decoration: underline;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -541,6 +662,7 @@ button.close {
     }
     .navbar-default .navbar-toggle {
         border: none;
+        margin: 10px 0;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #333;
@@ -599,6 +721,12 @@ button.close {
     .footer-logo {
         width: 240px;
     }
+    .aside-good-links {
+        width: 28%;
+    }
+    .good-main-content {
+        width: 70%;
+    }
 }
 @media (max-width: 550px) {
     .footer-links {
@@ -608,6 +736,21 @@ button.close {
     .footer-logo {
         width: 100%;
         margin-bottom: 15px;
+    }
+    .flex-good-block-page {
+        flex-direction: column-reverse;
+    }
+    .good-main-content, .aside-good-links {
+        width: 100%;
+    }
+    .good-main-content table td, .good-main-content table th {
+        font-size: 14px;
+    }
+    .portfolio-item {
+        width: 48%;
+    }
+    .good-main-content-img {
+        width: 140px;
     }
 }
 @media(max-width: 478px) {
