@@ -619,6 +619,23 @@ button.close {
 .roots-aside-block li a:hover {
     text-decoration: underline;
 }
+.page-shares {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page-shares-item {
+    width: 49%;
+    filter: grayscale(1);
+    padding: 0;
+    margin-bottom: 20px;
+}
+.page-shares-item img {
+    width: 100%;
+}
+.page-shares-item .owl-shares-desk {
+    height: auto;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -792,5 +809,8 @@ button.close {
     }
     .owl-shares-item {
         padding: 0;
+    }
+    .page-shares-item {
+        width: 100%;
     }
 }
