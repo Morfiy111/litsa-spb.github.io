@@ -484,6 +484,20 @@ button.close {
 .owl-shares {
     margin-bottom: 40px;
 }
+.breadcrumb {
+    background-color: transparent;
+    padding: 15px 0 15px 0;
+}
+.breadcrumb a, .breadcrumb span {
+    color: #333;
+    padding: 0 2px;
+}
+.breadcrumb > .active {
+    color: #333;
+}
+.breadcrumb a:hover {
+    border-bottom: none;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
