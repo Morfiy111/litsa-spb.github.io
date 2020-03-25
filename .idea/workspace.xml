@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58fc298d-a19f-4631-b3c2-003a7759419d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="744" column="23" selection-start-line="744" selection-start-column="23" selection-end-line="744" selection-end-column="23" />
+              <caret line="140" column="16" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -113,8 +112,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="140" />
+    <option name="x" value="27" />
+    <option name="y" value="118" />
     <option name="width" value="1371" />
     <option name="height" value="764" />
   </component>
@@ -191,15 +190,15 @@
       <workItem from="1585034502409" duration="28000" />
       <workItem from="1585044684181" duration="6375000" />
       <workItem from="1585119872520" duration="34000" />
-      <workItem from="1585123487774" duration="32000" />
+      <workItem from="1585123487774" duration="711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68298000" />
+    <option name="totallyTimeSpent" value="68977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="140" width="1371" height="764" extended-state="0" />
+    <frame x="27" y="118" width="1371" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3120729" />
@@ -302,7 +301,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="744" column="23" selection-start-line="744" selection-start-column="23" selection-end-line="744" selection-end-column="23" />
+          <caret line="140" column="16" lean-forward="true" selection-start-line="140" selection-start-column="16" selection-end-line="140" selection-end-column="16" />
         </state>
       </provider>
     </entry>
