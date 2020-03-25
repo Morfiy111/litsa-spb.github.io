@@ -741,6 +741,9 @@ button.close {
     border: 1px solid #333;
     padding: 7px;
 }
+.price-block-content a:hover {
+    border-bottom: none;
+}
 @keyframes animate {
     0% {
         top: calc(50% - 2px);
