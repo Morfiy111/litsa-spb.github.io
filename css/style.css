@@ -765,6 +765,16 @@ button.close {
 .price-block-content a:hover {
     border-bottom: none;
 }
+.black-line-menu.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    border-bottom: 3px solid #333;
+}
+.black-line-menu {
+    background-color: #fff;
+}
 @keyframes animate {
     0% {
         top: calc(50% - 2px);

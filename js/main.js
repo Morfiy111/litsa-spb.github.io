@@ -41,10 +41,10 @@ $(document).ready(function(){
 jQuery(function($) {
     $(window).scroll(function(){
         if($(this).scrollTop()>390){
-            $('.red-back-block').addClass('fixed');
+            $('.black-line-menu').addClass('fixed');
         }
         else if ($(this).scrollTop()<390){
-            $('.red-back-block').removeClass('fixed');
+            $('.black-line-menu').removeClass('fixed');
         }
     });
 });
