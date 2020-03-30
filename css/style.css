@@ -771,8 +771,6 @@ button.close {
     width: 100%;
     z-index: 111;
     border-bottom: 3px solid #333;
-}
-.black-line-menu {
     background-color: #fff;
 }
 @keyframes animate {
