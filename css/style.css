@@ -821,9 +821,6 @@ button.close {
     color: #333;
     border-color: #333;
 }
-.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fff;
-}
 .element-with-video-bg .button-center {
     position: absolute;
     width: 100%;
@@ -974,6 +971,9 @@ button.close {
     }
     .main-page-title, .header-line-block, .element-with-video-bg .button-center {
         position: inherit;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
     }
 }
 @media (max-width: 550px) {
