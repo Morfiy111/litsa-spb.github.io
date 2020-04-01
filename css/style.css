@@ -419,18 +419,16 @@ button.close {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .shares-cart-block-text h3 {
     font-size: 28px;
-    margin-top: 22px;
+    margin-top: 0;
 }
 .big-pencent-shares {
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 15px;
-}
-.shares-image-block {
-    width: 400px;
 }
 .shares-image-block img {
     width: 100%;
@@ -884,6 +882,9 @@ button.close {
     .footer-logo {
         margin-right: 12px;
     }
+    .main-page-title {
+        top: 390px;
+    }
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -896,7 +897,7 @@ button.close {
         margin: 10px 0;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #333;
+        background-color: #fff;
         position: relative;
         width: 50px;
         height: 6px;
@@ -957,6 +958,12 @@ button.close {
     }
     .good-main-content {
         width: 70%;
+    }
+    .element-with-video-bg {
+        display: none;
+    }
+    .main-page-title, .header-line-block {
+        position: inherit;
     }
 }
 @media (max-width: 550px) {
