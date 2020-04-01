@@ -784,7 +784,7 @@ button.close {
     width: 100%;
     z-index: 111;
     border-bottom: 3px solid #333;
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.6);
 }
 .black-line-menu.fixed a {
     color: #333;
@@ -821,6 +821,9 @@ button.close {
 .background-image-block .button-center .fancy-btn, .background-image-block .button-center .fancy-btn:after, .grey-line-page .fancy-btn, .grey-line-page .fancy-btn:after {
     color: #333;
     border-color: #333;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
