@@ -812,7 +812,6 @@ button.close {
     align-items: center;
     top: 300px;
     position: absolute;
-    z-index: 11;
     color: #fff;
 }
 .main-page-title h1:before, .main-page-title h1:after {
@@ -824,6 +823,11 @@ button.close {
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
+}
+.element-with-video-bg .button-center {
+    position: absolute;
+    width: 100%;
+    top: 444px;
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
@@ -887,6 +891,9 @@ button.close {
     }
     .main-page-title {
         top: 390px;
+    }
+    .element-with-video-bg .button-center {
+        top: 500px;
     }
 }
 @media (max-width: 767px) {
@@ -965,7 +972,7 @@ button.close {
     .element-with-video-bg {
         display: none;
     }
-    .main-page-title, .header-line-block {
+    .main-page-title, .header-line-block, .element-with-video-bg .button-center {
         position: inherit;
     }
 }
