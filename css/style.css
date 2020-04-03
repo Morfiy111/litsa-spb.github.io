@@ -826,6 +826,9 @@ button.close {
     width: 100%;
     top: 444px;
 }
+.element-with-video-bg video {
+    width: 100%;
+}
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
 }
