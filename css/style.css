@@ -848,6 +848,55 @@ button.close {
     z-index: 99;
     left: calc(50% - 34px);
 }
+.actions-social {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+    width: 1170px;
+    margin: auto auto 40px auto;
+}
+.actions-social .social-block {
+    justify-content: center;
+}
+.actions-social a {
+    color: #fff;
+    font-size: 30px;
+    border-color: #fff;
+    transition: all .3s linear;
+    border: none;
+}
+.actions-social a i {
+    transition: all .3s linear;
+}
+.actions-social a:hover i {
+    text-shadow: 0px 0px 4px #fff;
+}
+.actions-social i {
+    margin-left: 5px;
+}
+.sign-up-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.sign-up-title {
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.sign-up-block {
+    background: linear-gradient(45deg, black, transparent);
+    padding: 40px 0;
+}
+.sign-up-flex-item-title {
+    color: #fff;
+}
+.sign-up-flex-item {
+    width: 20%;
+}
+.sign-up-flex-item-input input {
+    width: 100%;
+}
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
 }
@@ -885,6 +934,9 @@ button.close {
     .footer-logo {
         width: 188px;
     }
+    .actions-social {
+        width: 970px;
+    }
 }
 @media (max-width: 991px) {
     .header-main-page {
@@ -913,6 +965,9 @@ button.close {
     }
     .element-with-video-bg .button-center {
         top: 500px;
+    }
+    .actions-social {
+        width: 750px;
     }
 }
 @media (max-width: 767px) {
@@ -996,6 +1051,17 @@ button.close {
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #fff;
+    }
+    .actions-social {
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+    }
+    .sign-up-flex {
+        flex-wrap: wrap;
+    }
+    .sign-up-flex-item {
+        width: 100%;
     }
 }
 @media (max-width: 550px) {
