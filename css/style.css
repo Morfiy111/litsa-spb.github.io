@@ -7,7 +7,7 @@ body {
 a, button {
     transition: all .3s linear;
     color: #333;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #fff;
 }
 a:focus, a:hover {
     text-decoration: none;
@@ -32,6 +32,9 @@ body {
 }
 .logo-block-header {
     width: 240px;
+}
+.logo-block-header a {
+    border-bottom: none;
 }
 .logo-block-header img {
     width: 100%;
@@ -467,6 +470,7 @@ button.close {
 .footer-address .social-block a {
     margin-right: 8px;
     font-size: 22px;
+    border-bottom: none;
 }
 .footer-address-item i {
     margin-right: 5px;
@@ -598,6 +602,7 @@ button.close {
 .aside-title-block h2{
     margin: 0 0 20px 0;
     text-align: center;
+    color: #fff;
 }
 .good-main-content table {
     width: 100%;
@@ -755,7 +760,7 @@ button.close {
     display: block;
     margin: 0 10px;
     padding: 5px 10px;
-    color: #333;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -781,7 +786,7 @@ button.close {
     width: 100%;
 }
 .price-block-content table td, .price-block-content table th {
-    border: 1px solid #333;
+    border: 1px solid #fff;
     padding: 7px;
 }
 .price-block-content a:hover {
@@ -908,6 +913,12 @@ button.close {
 }
 .header-no-main-page {
     position: initial;
+}
+.price-block-content { 
+    color: #fff;
+}
+.price-block-content a {
+    color: #fff;
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
