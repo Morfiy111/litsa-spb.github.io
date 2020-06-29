@@ -785,6 +785,7 @@ button.close {
     z-index: 111;
     border-bottom: 3px solid #333;
     background-color: rgba(0,0,0,0.6);
+    border-top: none;
 }
 .black-line-menu.fixed a {
     color: #333;
@@ -826,8 +827,26 @@ button.close {
     width: 100%;
     top: 444px;
 }
+.element-with-video-bg {
+    position: relative; 
+    overflow: hidden;
+}
 .element-with-video-bg video {
     width: 100%;
+}
+.main-arrow-down i {
+    color: #fff;
+    font-size: 40px;
+}
+.main-arrow-down a {
+    text-decoration: none;
+    border-bottom: none;
+}
+.main-arrow-down {
+    position: absolute;
+    bottom: 140px;
+    z-index: 99;
+    left: calc(50% - 34px);
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
