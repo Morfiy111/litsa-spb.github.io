@@ -151,6 +151,9 @@ button.close {
     font-weight: bold;
     overflow: hidden;
 }
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
 .navbar-default .navbar-nav > li > a:hover {
     color: #fff;
 }
