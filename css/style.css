@@ -686,6 +686,7 @@ button.close {
 .blog-author {
     margin-bottom: 20px;
     text-align: right;
+    color: #fff;
 }
 .news-block {
     border: 1px solid #fff;
@@ -695,6 +696,9 @@ button.close {
     color: #fff;
 }
 .news-block a {
+    color: #fff;
+}
+.blog-content {
     color: #fff;
 }
 .news-block-img {
