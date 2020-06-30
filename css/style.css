@@ -802,6 +802,9 @@ button.close {
 .price-block-content a:hover {
     border-bottom: none;
 }
+.black-line-menu {
+    display: none;
+}
 .black-line-menu.fixed {
     position: fixed;
     top: 0;
@@ -810,6 +813,7 @@ button.close {
     border-bottom: 3px solid #333;
     background-color: rgba(0,0,0,0.6);
     border-top: none;
+    display: block;
 }
 .black-line-menu.fixed a {
     color: #333;
