@@ -40,10 +40,10 @@ $(document).ready(function () {
 
 jQuery(function ($) {
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 690) {
+        if ($(this).scrollTop() > 600) {
             $('.black-line-menu').addClass('fixed');
         }
-        else if ($(this).scrollTop() < 690) {
+        else if ($(this).scrollTop() < 600) {
             $('.black-line-menu').removeClass('fixed');
         }
     });
