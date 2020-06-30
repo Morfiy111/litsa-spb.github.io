@@ -87,3 +87,25 @@ $(document).ready(function () {
         $('body,html').animate({ scrollTop: top }, 1500);
     });
 });
+
+var itemsCount = 3;
+if (window.matchMedia("(max-width: 991px)").matches) {
+    itemsCount = 3;
+}
+if (window.matchMedia("(max-width: 767px)").matches) {
+    itemsCount = 2;
+}
+if (window.matchMedia("(max-width: 478px)").matches) {
+    itemsCount = 1;
+}
+var owl = $('.about-carousel');
+owl.owlCarousel({
+    items: itemsCount,
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true
+});
