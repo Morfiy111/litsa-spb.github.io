@@ -31,7 +31,7 @@ body {
     width: 100%;
 }
 .logo-block-header {
-    width: 200px;
+    width: 240px;
 }
 .logo-block-header a {
     border-bottom: none;
@@ -253,6 +253,7 @@ button.close {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .goods-main-img img {
     width: 100%;
@@ -933,6 +934,11 @@ button.close {
 }
 .price-block-content a {
     color: #fff;
+}
+.header-feedback .social-block a {
+    border-bottom: none;
+    font-size: 30px;
+    margin: 0 5px;
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
