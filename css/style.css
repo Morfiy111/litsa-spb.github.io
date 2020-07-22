@@ -41,11 +41,13 @@ body {
 }
 .header-line-block {
     border-bottom: 3px solid #fff;
-    position: absolute;
     top: 0;
     z-index: 11;
     width: 100%;
     color: #fff;
+}
+.header-line-block-main {
+    position: absolute;
 }
 .header-line-block a {
     color: #fff;
