@@ -3,6 +3,7 @@ body {
     color: #333;
     font-size: 16px;
     line-height: 1.62;
+    background: #fff;
 }
 a, button {
     transition: all .3s linear;
@@ -12,9 +13,6 @@ a, button {
 a:focus, a:hover {
     text-decoration: none;
     color: #333;
-}
-body {
-    background: rgba(0,0,0,0.6);
 }
 .header-main-page {
     display: flex;
@@ -248,7 +246,7 @@ button.close {
     text-align: center;
     position: relative;
     margin-bottom: 40px;
-    color: #fff;
+    color: #333;
 }
 .goods-block-main {
     display: flex;
@@ -266,9 +264,6 @@ button.close {
     margin-bottom: 20px;
     overflow: hidden;
     transition: all .3s linear;
-}
-.goods-block-item:hover {
-    border-radius: 70%;
 }
 .good-main-link {
     position: absolute;
@@ -295,11 +290,17 @@ button.close {
 }
 .good-main-link:hover {
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 70%;
 }
 .button-center {
     text-align: center;
     margin-bottom: 40px;
+}
+.button-center .fancy-btn {
+    border: 2px solid #333;
+    color: #333;
+}
+.button-center .fancy-btn:after {
+    border-color: #333;
 }
 .background-image-block {
     background-image: url("../images/about2.jpg");
@@ -882,7 +883,7 @@ button.close {
 .actions-social {
     text-align: center;
     margin-bottom: 40px;
-    color: #fff;
+    color: #333;
     width: 1170px;
     margin: auto auto 40px auto;
 }
@@ -890,7 +891,7 @@ button.close {
     justify-content: center;
 }
 .actions-social a {
-    color: #fff;
+    color: #333;
     font-size: 30px;
     border-color: #fff;
     transition: all .3s linear;

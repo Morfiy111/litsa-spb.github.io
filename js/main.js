@@ -109,3 +109,67 @@ owl.owlCarousel({
     autoplayTimeout: 3000,
     autoplayHoverPause: true
 });
+$(function () {
+    $('#ri-grid').gridrotator({
+        // number of rows
+        rows: 2,
+
+        // number of columns 
+        columns: 6,
+
+        // rows/columns for different screen widths
+        // i.e. w768 is for screens smaller than 768 pixels
+        w1024: {
+            rows: 3,
+            columns: 2
+        },
+
+        w768: {
+            rows: 2,
+            columns: 2
+        },
+
+        w480: {
+            rows: 2,
+            columns: 2
+        },
+
+        w320: {
+            rows: 2,
+            columns: 2
+        },
+        step: 'random',
+        maxStep: 3,
+
+        // prevent user to click the items
+        preventClick: true,
+
+        // animation type
+        // showHide || fadeInOut || slideLeft || 
+        // slideRight || slideTop || slideBottom || 
+        // rotateLeft || rotateRight || rotateTop || 
+        // rotateBottom || scale || rotate3d || 
+        // rotateLeftScale || rotateRightScale || 
+        // rotateTopScale || rotateBottomScale || random
+        animType: 'random',
+
+        // animation speed
+        animSpeed: 500,
+
+        // animation easings
+        animEasingOut: 'linear',
+        animEasingIn: 'linear',
+
+        // the item(s) will be replaced every 3 seconds
+        // note: for performance issues, the time "can't" be < 300 ms
+        interval: 3000,
+        // if false the animations will not start
+        // use false if onhover is true for example
+        slideshow: true,
+        // if true the items will switch when hovered
+        onhover: false,
+        // ids of elements that shouldn't change
+        nochange: []
+    });
+
+});
