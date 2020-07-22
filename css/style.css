@@ -264,6 +264,10 @@ button.close {
     margin-bottom: 20px;
     overflow: hidden;
     transition: all .3s linear;
+    filter: grayscale(1);
+}
+.goods-block-item:hover {
+    filter: grayscale(0);
 }
 .good-main-link {
     position: absolute;
@@ -287,9 +291,6 @@ button.close {
 .good-main-link {
     background-color: rgba(0, 0, 0, 0.3);
     transition: all .3s linear;
-}
-.good-main-link:hover {
-    background-color: rgba(0, 0, 0, 0.6);
 }
 .button-center {
     text-align: center;
@@ -501,7 +502,7 @@ button.close {
 .footer-copyright-big {
     font-size: 14px;
 }
-.owl-carousel, .goods-main-img {
+.owl-carousel {
     filter: grayscale(1);
 }
 .header-address a {
