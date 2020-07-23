@@ -43,9 +43,11 @@ a:focus, a:hover {
     z-index: 11;
     width: 100%;
     color: #fff;
+    background-color: rgba(0,0,0,0.6);
 }
 .header-line-block-main {
     position: absolute;
+    background-color: transparent;
 }
 .header-line-block a {
     color: #fff;
@@ -538,12 +540,12 @@ button.close {
     padding: 15px 0 15px 0;
 }
 .breadcrumb a, .breadcrumb span {
-    color: #fff;
+    color: #333;
     padding: 0 2px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #333;
 }
 .breadcrumb > .active {
-    color: #fff;
+    color: #333;
 }
 .breadcrumb a:hover {
     border-bottom: none;
@@ -590,10 +592,10 @@ button.close {
 }
 .good-main-content {
     width: 76%;
-    color: #fff;
+    color: #333;
 }
 .good-main-content a {
-    color: #fff;
+    color: #333;
 }
 .roots-aside-block {
     padding-left: 0;
@@ -609,17 +611,18 @@ button.close {
 .roots-aside-block li a {
     color: #fff;
     display: block;
+    border-bottom: none;
 }
 .aside-title-block h2{
     margin: 0 0 20px 0;
     text-align: center;
-    color: #fff;
+    color: #333;
 }
 .good-main-content table {
     width: 100%;
 }
 .good-main-content table td, .good-main-content table th {
-    border: 1px solid #fff;
+    border: 1px solid #333;
     padding: 7px;
 }
 .good-main-content table td a:hover {
@@ -700,17 +703,17 @@ button.close {
     color: #fff;
 }
 .news-block {
-    border: 1px solid #fff;
+    border: 1px solid #333;
     margin-bottom: 25px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #333;
 }
 .news-block a {
-    color: #fff;
+    color: #333;
 }
 .blog-content {
-    color: #fff;
+    color: #333;
 }
 .news-block-img {
     width: 25%;
@@ -733,6 +736,9 @@ button.close {
     margin-top: 10px;
 }
 .read-later:hover, .news-block-body h3 a {
+    border-bottom: 1px solid #333;
+}
+.news-block-body h3 a:hover {
     border-bottom: none;
 }
 .pagination {
@@ -758,7 +764,7 @@ button.close {
     border-radius: 4px;
 }
 .ditto_page:hover {
-    background-color: #fff;
+    background-color: #333;
 }
 .price-list-links {
     display: flex;
@@ -775,7 +781,7 @@ button.close {
     display: block;
     margin: 0 10px;
     padding: 5px 10px;
-    color: #fff;
+    color: #333;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -801,14 +807,17 @@ button.close {
     width: 100%;
 }
 .price-block-content table td, .price-block-content table th {
-    border: 1px solid #fff;
+    border: 1px solid #333;
     padding: 7px;
 }
 .price-block-content a:hover {
-    border-bottom: none;
+    border-bottom: 1px solid #333;
 }
-.black-line-menu {
-    display: none;
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+}
+.fixed .navbar-default .navbar-nav > li > a {
+    color: #fff;
 }
 .black-line-menu.fixed {
     position: fixed;
@@ -932,12 +941,6 @@ button.close {
 }
 .header-no-main-page {
     position: initial;
-}
-.price-block-content { 
-    color: #fff;
-}
-.price-block-content a {
-    color: #fff;
 }
 .header-feedback .social-block a {
     border-bottom: none;
