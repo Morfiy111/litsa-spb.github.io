@@ -504,8 +504,11 @@ button.close {
 .footer-copyright-big {
     font-size: 14px;
 }
-.owl-carousel {
-    filter: grayscale(1);
+.masters-carousel-title {
+    text-align: center;
+}
+.masters-carousel-special {
+    min-height: 50px;
 }
 .header-address a {
     border-bottom: none;
@@ -946,6 +949,14 @@ button.close {
     border-bottom: none;
     font-size: 30px;
     margin: 0 5px;
+}
+.masters-carousel-name {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 15px;
+}
+.masters-carousel-foto {
+    margin-bottom: 15px;
 }
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
