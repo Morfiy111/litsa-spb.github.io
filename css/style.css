@@ -958,6 +958,28 @@ button.close {
 .masters-carousel-foto {
     margin-bottom: 15px;
 }
+.feedback-carousel-item {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.feedback-carousel-user {
+    margin-right: 30px;
+    text-align: center;
+    width: 30%;
+}
+.feedback-carousel-text {
+    width: 70%;
+}
+.feedback-carousel-user-img {
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.feedback-carousel i {
+    color: #333;
+}
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
 }
@@ -1123,6 +1145,19 @@ button.close {
     }
     .sign-up-flex-item {
         width: 100%;
+    }
+    .feedback-carousel-item {
+        flex-direction: column;
+    }
+    .feedback-carousel-user {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .feedback-carousel-text {
+        width: 100%;
+    }
+    .feedback-carousel-item {
+        width: 76%;
     }
 }
 @media (max-width: 550px) {
