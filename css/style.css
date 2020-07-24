@@ -980,6 +980,22 @@ button.close {
 .feedback-carousel i {
     color: #333;
 }
+.reason-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.reason-item {
+    width: 32%;
+    padding: 20px;
+    text-align: center;
+}
+.reason-icon {
+    font-size: 38px;
+}
+.reason-text {
+    font-weight: bold;
+}
 @media (min-aspect-ratio: 16/9) {
  .video-foreground { height: 300%; top: -100%; }
 }
@@ -1158,6 +1174,9 @@ button.close {
     }
     .feedback-carousel-item {
         width: 76%;
+    }
+    .reason-item {
+        width: 48%;
     }
 }
 @media (max-width: 550px) {
