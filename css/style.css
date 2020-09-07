@@ -1014,6 +1014,13 @@ button.close {
 @media (max-aspect-ratio: 16/9) {
  .video-foreground { width: 300%; left: -100%; }
 }
+.goods-block-main-masters .masters-carousel-desc {
+    width: 70%;
+    font-size: 18px;
+}
+.gallery-grid-master {
+    filter: grayscale(0);
+}
 @keyframes animate {
     0% {
         top: calc(50% - 2px);
